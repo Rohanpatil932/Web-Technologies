@@ -1,0 +1,129 @@
+h1{
+    color: blue;
+    font-size: 50px;  
+    text-align: center;
+    top: name;
+    text-decoration:underline;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    background-color: rgb(114, 141, 132);
+
+}
+h2{
+    color: black;
+    text-align: center;
+}
+h1,h2{
+    color: chartreuse;
+}
+.ban{
+    color: cyan;
+    text-decoration: underline;
+    font: size 50px;;
+}
+
+body{
+   /* background-image: url("F:\Web Technology xworkz\photoimage.jpg"); */
+   background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg");
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+.new{
+    font-size: 40px;
+    padding: 50px 40px 50px 50px;
+    color: rgb(255, 0, 0);
+    border: 5px solid rgb(0, 139, 127);
+    /* margin: 30px 20px 30px 40px; */
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.box1{
+    border: 2px solid red;
+    margin: 10px;
+    width: 200px;
+  height: 200px;
+}
+.box2{
+    border: 3px solid green;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}
+.new:hover{
+    color: grey;
+}
+
+.box3{
+    border: 2px solid purple;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine
+}
+.box3:hover{
+    background-color: black;
+}
+
+.box4{
+    font-size: 20px;
+    color:green;
+    text-align: center;
+    float: left;
+    border: 2px solid tomato;
+    background-color: black;
+    width: 48%;
+    height: 40px;
+}
+.box4:hover{
+    color:whitesmoke;
+}
+.box5{
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    float: right;
+    background-color: black;
+    border: 2px solid tomato;
+    width: 48%;
+    height: 40px;
+}
+.box5:hover{
+    color: blanchedalmond;
+}
+.hyper:link{
+    background-color: rgb(0, 0, 0);
+
+}
+.insta:visited{
+    text-decoration: none;
+}
+table,tr,th{
+    background-color: burlywood;
+}
+tr:nth-child(even){
+    background-color: chartreuse;
+}
+tr:nth-child(odd){
+    background-color: coral;
+}
+tr:nth-child(odd):hover{
+    background-color: coral;
+}
+div p{
+    color: rgb(233, 24, 24);
+}
+div>p{
+    color: darkgrey;
+}
+div+p{
+    color: darkred;
+}
+div ~p{
+    color: darkorange;
+}
