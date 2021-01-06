@@ -1,0 +1,21 @@
+h2{
+    text-align: center;
+    color: black;
+    background-color: chartreuse;
+}
+h4{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+.name{
+    padding: 1px 1px 1px 1px;
+
+}
+.email{
+    padding: 1px 1px 1px 1px;
+}
+.age{
+    padding: 1px 1px 1px 1px;
+}
