@@ -1,0 +1,49 @@
+.box{
+font-size: 25px;
+margin: 4px;
+width: 20%;
+left: 0;
+}
+.box1{
+    list-style-type: none;
+    text-decoration: none;
+    width: 20%; 
+    float:left;
+    font-size: 15px;
+    color: blue;
+}
+.box2{
+    font-size: 20px;
+    float: right;
+    top: 0px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin: 8px;
+    width: 75%;
+    display: block;
+}
+.box3{
+    width: 75%;
+    float: right;
+    padding: 2px;
+}
+.box4,.b7,.b9,.b11{
+    font-size: 20px;
+    width: 75%;
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin: 8px;
+}
+.box5,.b6{
+    width: 75%;
+    float: right;
+    padding: 2px;
+}
+.b8,.b10,.b12{
+    width: 75%;
+    float: right;
+    padding: 2px;
+}
