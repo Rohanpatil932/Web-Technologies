@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>LETS  PERFORM SOME JAVA OPERATION</h2>
+        <p id="person"></p>
+        <script>
+            
+                var data={
+                    name:"Rohan",
+                    surname:"patil",
+                    age:25,
+                    area: "rajajinagar",
+               // };
+                
+              // document.getElementById("person").innerHTML=data.name+"  "+data.surname+" ageis "+data.age+" lives in "+data.area;
+                
+                nameis :function(){
+                    return this.age+" "+this.name;
+                }
+            };
+                document.getElementById("person").innerHTML=data.nameis();
+
+                
+        </script>
+          <p id="demo"></p>
+          <button onclick="document.getElementById('demo').innerHTML=Date()">click</button>
+
+          <button onclick="this.innerHTML=Date()">click</button>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="K"></p>
+        <button onclick="dateIs()">click to get date</button>
+        <script>
+            function dateIs(){
+                document.getElementById("K").innerHTML=Date();
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JAVA SCRIPT</title>
+   
+    </head>
+    <body>
+        <h1>Welcome to JS</h1>
+        <script>
+           
+            document.write("<h1> JS</h1>")
+            console.log("lets start JS")
+            console.log("Begining of JS")
+            console.log("Welcome to JS")
+            console.log(" JS")
+            alert("it might contain harmful data")
+
+            var a
+            a=true
+            console.log(typeof(a))
+            var b
+            b="ASDFG"
+            console.log(typeof(b))
+            var c
+           
+            console.log(typeof(c))
+            var d
+            b=c
+            console.log(typeof(d))
+            if(a){
+                console.log("b is boolean")
+            }
+            for( var i=0;i<10;i++){
+                console.log(i)
+                document.write(i)
+            }
+            function hee(){
+                console.log("invoking function")
+              var nameis=document.getElementById("ename")
+               console.log(name)
+               console.log(name.value)
+               if(name.value==""){
+                   console.log("enter if")
+              var message= document.getElementById("message")
+               console.log(message)
+               message.innerHTML="data from js"
+               message.style.color="red"
+               }
+               var num1is=document.getElementById("num1")
+            var num2is=document.getElementById("num2")
+            console.log(num1.value, num2.value)
+           var answer= document.getElementById("answer")
+           answer.innerHTML=parseInt(num1.value)+parseInt(num2.value)
+          var lastname= document.getElementById("lastname").value
+          if(lastname.length==""){
+              var err=document.getElementById("elastname")
+              err.innerHTML="enter lastName"
+              err.style.color="red"
+              var email=document.getElementById("email").value
+              if(email.length==""){
+                  var ema=document.getElementById("emailid")
+                  ema.innerHTML="enter email"
+                  ema.style.color="red"
+
+
+              }
+          }
+          console.log(document.register.breed[0].checked)
+            console.log(document.register.breed[1].checked)
+            console.log(document.register.breed[2].checked)
+            if(document.register.breed[0].checked==false &&
+            document.register.breed[1].checked==false &&
+            document.register.breed[2].checked==false
+            ){
+                console.log("entering radio validation")
+                var err=document.getElementById("dogs")
+                err.innerHTML="please select dogs"
+                err.style.color="red"
+            }
+            console.log(document.register.lan)
+            console.log(document.register.lan.value)
+            var lan= document.register.lan
+            if(lan.value=="0"){
+                console.log("validating select")
+                var err=document.getElementById("errlan")
+                err.innerHTML="select language"
+                err.style.color="red"
+            }
+        
+
+            }
+            
+        
+            hee()
+           var res= function mock(){
+                console.log("invoking function")
+            }
+            res()
+      
+        </script>
+        <form name="register">
+            <div>
+                <label>Enter name</label>
+                <input type="text" id="name">
+                <span id="message"></span>
+            </div>
+            <div>
+                <label>NUMBER 1</label>
+                <input type="text" id="num1">
+                
+                <label>NUMBER 2</label>
+                <input type="text" id="num2">
+            </div>
+            <div>
+                <label>Enter Last name</label>
+                <input type="text" id="lastname">
+                <span id="elastname"></span>
+            </div>
+            <div>
+                <label>Enter mailId</label>
+                <input type="text" id="email">
+                <span id="emailid"></span>
+                       </div>
+            
+            <div>
+                <label>Select dogs</label>
+                <input type="radio" name="breed">lab
+                <input type="radio" name="breed">jermam shefard
+                <input type="radio" name="breed">pug
+                <input type="radio" name="breed">pitbull
+                <span id="dogs"></span>
+            </div>
+            <div>
+                <label>Select Language</label>
+                <select name="lan">
+                    <option>--select--</option>
+                    <option>English</option>
+                    <option>Marathi</option>
+                    <option>Hindi</option>
+                    <option>Kannada</option> 
+                </select>
+                <span id="errlan"> </span>
+            </div>
+            <div>
+                <button type="button" onclick="hee()">Submit</button>
+                <span id="answer"></span>
+            </div>
+        </form>
+    </body>
+</html>
+
+<!-- Data Types:
+string
+boolean
+Number
+undefined
+null 
+
+var a      declare a ceriable-->
+

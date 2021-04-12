@@ -1,0 +1,54 @@
+h2{
+    text-align: center;
+}
+.name, .profile,.train,.tech{
+background-color: rgb(101, 101, 255);
+width: 48%;
+font-size:30px;
+margin: 20px;
+
+
+
+}
+.no, .no1{
+    border: 6px solid white;
+    margin: 20px;
+
+  
+}
+.stuff,.stuff2,.stuff3{
+width: 48%;
+margin: 20px;
+
+}
+.j,.h{
+    font-size:18px;
+    margin: 2px;
+}
+.career,.edu,.skill,.key{
+   
+    background-color: rgb(101, 101, 255);
+    width: 48%;
+    font-size:30px;
+    margin: 26px;
+    float: right;  
+    top: 0px;
+    display: block;
+}
+.main, .stuff4,.stuff5,.stuff6{
+    top: 0%;
+    width: 48%;
+    float: right;
+    display: block; 
+    margin: 24px;;  
+}
+.intern{
+    top: 0%;
+    float: right;
+    width: 48%;
+    display: block;
+    margin: 10px;
+   
+    
+    
+}

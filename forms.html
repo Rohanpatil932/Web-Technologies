@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+        <link rel="stylesheet" href="F:\Web Technology xworkz\forms.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <title>REGISTRATION FORM</title>
+        <header>REGISTRATION FORM</header>
+        <br>
+        <br><br><br><br>
+
+<div class="container"></div>
+<form class="form-horizontal" >
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="name">Full Name</label>
+        <div class="col-sm-6">
+            <input type="fname" class="form-control" id="fname" placeholder="Full Name">
+            <span id="ename" style="color:red"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="name">Fathers Name</label>
+        <div class="col-sm-6">
+<input type="mname" class="form-control" id="mname" placeholder="Fathers Name" name="fathers name">
+<div id="emname" style="color:red"></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2">Date Of Birth</label>
+        <div class="col-sm-4">
+        <input type="date" class="form-control" id="DOB" name="DOB">
+    </div>
+    </div>
+    <div class="form-group">
+
+        <label class="control-label col-sm-2" for="gender">Gender</label>
+        <div class="col-sm-4">
+            
+            <select id="gender" class="form-control" name="gender">
+                <option>--Select--</option>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="other">Other</option>
+            </select>
+        </div>
+    </div>
+  
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-6">
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+    </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="password">Password</label>
+        <div class="col-sm-6">
+            <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="password">Re-Enter password</label>
+        <div class="col-sm-6">
+            <input type="password" class="form-control" id="password" placeholder="Re-Enter password" name="passward">
+        </div>
+    </div>
+ 
+        <footer>All COPYRIGHTS RESERVED WITH  RP&CO. &reg;&copy;</footer>
+       
+    </div>
+    <div class="form-group">
+        <div class=" col-sm-5">
+          <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+          </div>
+        </div>
+      </div>
+     <div class="col-sm-5">
+         <button type="submit" class="btn-primary" onclick="validateAndSave()">Submit</button>
+     </div>
+      <div class="col-sm-1">
+          <button type="reset" class="btn-primary">reset</button>
+      </div>
+      
+    </form>
+    
+    <script src="F:\Web Technology xworkz\FilesJS.js"></script>
+    </body>
+    </head>
+</html>
